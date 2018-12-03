@@ -21,8 +21,9 @@ import javax.servlet.http.HttpServletResponse;
 @TomRequestMapping("/busy")
 public class BusyController {
 
-    @TomRequestMapping("query")
+    @TomRequestMapping("/query")
     public String query(HttpServletRequest request, HttpServletResponse response, @TomParams("name") String name){
+        System.out.println("333");
         return null;
     }
 }

@@ -8,6 +8,7 @@
   <servlet>
     <servlet-name>HandleSevelet</servlet-name>
     <servlet-class>com.zhangjc.customMvc.sevelet.HandleSevelet</servlet-class>
+    <load-on-startup>0</load-on-startup>
   </servlet>
 
   <servlet-mapping>
